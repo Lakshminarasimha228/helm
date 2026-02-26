@@ -1,5 +1,5 @@
 deployment:
   replicas: 4 # number of pod replicas
-  imageVersion: stable-perl # nginx image version
+  imageVersion: stable-otel # nginx image version
 service:
   targetPort: 80 # container port  
