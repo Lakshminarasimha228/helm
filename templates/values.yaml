@@ -1,0 +1,5 @@
+deployment:
+  replicas: 4 # number of pod replicas
+  imageVersion: latest # nginx image version
+service:
+  targetPort: 80 # container port  
